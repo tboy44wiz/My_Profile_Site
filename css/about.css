@@ -1,0 +1,14 @@
+.main_body {
+    padding: 120px 20px 20px 20px;
+
+    background-color: gray;
+}
+
+.aligned_text {
+    background-color: aqua;
+    font-size: 2rem;
+    text-align: end;
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-shadow: 2px 2px rgb(158, 148, 148);
+}

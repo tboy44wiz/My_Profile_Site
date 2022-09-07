@@ -1,0 +1,39 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;500;600;700;900&family=Righteous&display=swap'); */
+/* @import url("./style.css"); */
+/* OR */
+@import "./style.css";
+
+
+/* 
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Righteous', cursive; 
+*/
+
+
+body {
+    background-color: orange;
+}
+
+menu > nav > a {
+    color: brown;
+}
+.menu_link {
+    color: lawngreen;
+    text-decoration: underline;
+}
+#brand_name {
+    color: red;
+}
+h1[id= "anything"] {
+    color: red;
+}
+h1[id] {
+    color: white; 
+}
+
+#page_title {
+    color: red;
+}
+h2 p {
+    color: purple;
+}

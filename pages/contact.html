@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Contact</title>
+
+
+        <link rel="stylesheet" type="text/css" href="../css/contact.css" />
+        <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    </head>
+
+    <body>
+        <!-- MENU BAR -->
+        <header class="app_header">
+            <strong class="brand_name">PROJECTS</strong>
+            <nav>
+                <a href="../index.html" class="link_item">HOME</a> |
+                <a href="./about_me.html" class="link_item">ABOUT ME</a> |
+                <a href="./services.html" class="link_item">SERVICES</a> |
+                <a href="./contact.html" class="link_item">CONTACT</a>
+            </nav>
+        </header>
+
+
+        <!-- MAIN BODY START -->
+        <section class="section_wrapper">
+            <h1>MY CONTACT</h1>
+
+            <div class="form_wrapper">
+                <form class="contact_form">
+                    <div class="input_wrapper">
+                        <label for="userName">Name:</label> <br />
+                        <input type="text" id="userName" value="+234 - " placeholder="Full name" />
+                    </div>
+    
+                    <div class="input_wrapper">
+                        <label for="userEmail">Email:</label> <br />
+                        <input type="email" id="userEmail" placeholder="email@example.com" />
+                    </div>
+    
+                    <div class="input_wrapper">
+                        <label for="userPassword">Password:</label> <br />
+                        <input type="password" id="userPassword" placeholder="Enter password." />
+                    </div>
+    
+                    <div class="input_wrapper">
+                        <label>Gender:</label>
+    
+                        <input type="radio" id="male" value="Male" name="user_gender" />
+                        <label for="male">Male</label>
+    
+                        <input type="radio" id="female" value="Female" name="user_gender" />
+                        <label for="female">Female</label>
+                    </div>
+    
+                    <div>
+                        <label for="progLanguages">Select your prefered language:</label>
+                        <select name="programmingList" id="progLanguages">
+                            <option value="HTML">HTML5</option>
+                            <option value="CSS">CSS3</option>
+                            <option value="JavaScript">JavaScript</option>
+                        </select>
+                    </div>
+    
+                    <br />
+    
+                    <div>
+                        <label for="pLanguages">Select your prefered likes:</label>
+    
+                        <br />
+    
+                        <input type="checkbox" id="AngularJS" name="Angular-JS" value="Angular">
+                        <label for="AngularJS">AngularJS</label>
+                        
+                        &nbsp;
+    
+                        <input type="checkbox" id="ReactJS" name="React-JS" value="React">
+                        <label for="ReactJS">ReactJS</label>
+    
+                        &nbsp;
+    
+                        <input type="checkbox" id="VueJS" name="Vue-JS" value="Vue">
+                        <label for="VueJS">VueJS</label>
+                    </div>
+    
+                    <br />
+    
+                    <div>
+                        <label for="message">Message:</label> <br />
+                        <textarea 
+                            name="messageText" 
+                            id="message" 
+                            cols="30" 
+                            rows="5" 
+                            style="resize: none;">
+                        </textarea>
+                    </div>
+    
+                    <br />
+    
+                    <div>
+                        <label for="image">Select an image:</label>
+                        <input type="file" id="image">
+                    </div>
+    
+                    <br />
+    
+                    <p>Already have an account,
+                        <a href="./services.html">Login</a>
+                    </p>
+    
+                    <button class="submit_button">Register</button>
+                    &nbsp;
+                    <!-- OR -->
+                    <!-- <input type="submit" value="Login"> -->
+    
+                </form>
+            </div>
+        </section>
+        
+
+        <!-- FOOTER -->
+        <footer class="app_footer">
+            <p class="copy_right">Copy Right 2022</p>
+        </footer>
+    </body>
+</html>
